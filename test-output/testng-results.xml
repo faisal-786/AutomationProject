@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T23:14:57 PKT" name="All Test Suite" finished-at="2024-05-27T23:15:24 PKT" duration-ms="27099">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T23:14:57 PKT" name="chromeTest" finished-at="2024-05-27T23:15:24 PKT" duration-ms="27099">
+      <class name="qa.tests.SignupPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:qa.tests.SignupPage@24313fcc]" started-at="2024-05-27T23:14:57 PKT" name="beforeSuite" finished-at="2024-05-27T23:14:57 PKT" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.SignupPage@24313fcc]" started-at="2024-05-27T23:14:57 PKT" name="beforeTestMethod" finished-at="2024-05-27T23:15:12 PKT" duration-ms="14790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void qa.tests.SignupPage.HappySignup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="HappySignup()[pri:0, instance:qa.tests.SignupPage@24313fcc]" started-at="2024-05-27T23:15:12 PKT" name="HappySignup" description="Verify user is able to signup with valid credentials" finished-at="2024-05-27T23:15:24 PKT" duration-ms="12166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HappySignup -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.SignupPage@24313fcc]" started-at="2024-05-27T23:15:24 PKT" name="afterMethod" finished-at="2024-05-27T23:15:24 PKT" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HappySignup status=SUCCESS method=SignupPage.HappySignup()[pri:0, instance:qa.tests.SignupPage@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:qa.tests.SignupPage@24313fcc]" started-at="2024-05-27T23:15:24 PKT" name="afterSuite" finished-at="2024-05-27T23:15:24 PKT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- qa.tests.SignupPage -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

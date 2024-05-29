@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.SuitListener"/>
+  </listeners>
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="headless" value="false"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="qa.tests.SignupPage">
+        <methods>
+          <include name="HappySignup"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- qa.tests.SignupPage -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
