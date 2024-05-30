@@ -8,7 +8,7 @@
         <parameter name="browser" value="chrome"></parameter>
         <parameter name="headless" value="false"></parameter>
         <classes>
-        <!-- <class name="qa.tests.LoginPage">
+         <!--<class name="qa.tests.LoginPage">
             <methods>
                 <include name="VerifyloginPageLoad"/>
                 <include name="maskingUnmasking"/>
@@ -20,12 +20,12 @@
            </class>-->
          	<class name="qa.tests.SignupPage">
            	<methods>
-                <include name="HappySignup"/>
-            <!--    <include name="DuplicateMerchantEmailSignup"/>
+              <!--  <include name="HappySignup"/>-->
+                <include name="DuplicateMerchantEmailSignup"/>
                 <include name="EmptyFieldValidation"/>
                 <include name="PasswordMismatch"/>
                  <include name="InvalidSignupDatasubmission"/>
-                 <include name="SignupWithDeletedMerchantEmail"/>-->
+                 <include name="SignupWithDeletedMerchantEmail"/>
             </methods>
             </class>
           <!--  <class name="qa.tests.ForgotPassword">
